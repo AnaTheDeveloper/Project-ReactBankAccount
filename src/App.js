@@ -15,6 +15,11 @@ function App() {
         console.log('login handler called')
     }
 
+    const backButtonHandler = () => {
+        setHasLoggedIn(false);
+        console.log('back button clicked');
+    }
+
   return (
     <React.Fragment>
 
@@ -24,7 +29,7 @@ function App() {
 
         {!hasLoggedIn && <Auth onLogInButtonClickConfirmation={loginHandler}/>}
 
-        {hasLoggedIn && <HomePage />}
+        {hasLoggedIn && <HomePage onBackConfirmation={backButtonHandler}/>}
 
     </React.Fragment>
   );
