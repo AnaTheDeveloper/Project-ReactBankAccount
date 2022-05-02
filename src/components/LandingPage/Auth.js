@@ -4,11 +4,13 @@ import Button from "../UI/Button";
 
 const Auth = (props) => {
 
-
+    const logInHandler = () => {
+        props.onLogInButtonClickConfirmation()
+    }
 
     return(
         <div className={classes.centre}>
-            <Button onClick={props.onLogInButtonClickConfirmation}>LogIn</Button>
+            <Button onClick={logInHandler} >LogIn</Button>
         </div>
     );
 };

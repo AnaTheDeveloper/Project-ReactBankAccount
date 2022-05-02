@@ -8,6 +8,8 @@ const Withdraw = (props) => {
 
     return(
         <div>
+            <h2>Withdraw screen is up working</h2>
+
         </div>
     );
 };

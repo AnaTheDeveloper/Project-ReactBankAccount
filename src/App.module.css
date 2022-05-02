@@ -1,11 +1,9 @@
-.footer {
-    text-align: left;
-    position:absolute;
-    bottom:0;
-    padding: 3px;
-    margin: 5px;
-}
 
+
+.linkActive {
+    background: lightskyblue;
+    border-bottom: 2px black solid ;
+}
 
 .img {
     text-align: center;
@@ -15,4 +13,3 @@
     margin: auto;
     padding: 10px;
 }
-

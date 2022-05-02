@@ -1,6 +1,5 @@
 import classes from './Balance.module.css';
 import React from "react";
-import Button from "../../../UI/Button";
 
 const Balance = (props) => {
 
@@ -8,8 +7,7 @@ const Balance = (props) => {
 
     return(
         <div>
-            <h2>Hi</h2>
-
+            <h2>Balance screen is up wohoo</h2>
         </div>
     );
 };

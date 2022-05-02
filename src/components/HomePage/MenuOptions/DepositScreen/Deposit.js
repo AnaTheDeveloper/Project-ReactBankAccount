@@ -8,6 +8,8 @@ const Deposit = (props) => {
 
     return(
         <div>
+            <h2>Deposit screen working screen is up wohoo</h2>
+
         </div>
     );
 };
